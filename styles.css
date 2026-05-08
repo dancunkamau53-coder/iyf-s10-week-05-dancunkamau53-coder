@@ -1,0 +1,16 @@
+.completed .task-text {
+    text-decoration: line-through;
+    color: gray;
+}
+.delete-btn {
+    display: none;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+li:hover .delete-btn {
+    display: inline;
+}
+.edit-input {
+    width: 80%;
+}
